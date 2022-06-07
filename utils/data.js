@@ -10,6 +10,7 @@ const data = {
       numReviews: 10,
       countInStock: 20,
       description: "A popular shirt",
+      slug: "free-shirt"
     },
     {
       name: "Fit Shirt",
@@ -21,6 +22,7 @@ const data = {
       numReviews: 8,
       countInStock: 40,
       description: "A nice shirt",
+      slug:"fit-shirt"
     },
     {
       name: "Thin Shirt",
@@ -32,6 +34,7 @@ const data = {
       numReviews: 9,
       countInStock: 10,
       description: "A smart shirt",
+      slug:"thin-shirt"
     },
     {
       name: "Free Pant",
@@ -43,6 +46,7 @@ const data = {
       numReviews: 8,
       countInStock: 24,
       description: "A popular pant",
+      slug: "free-pant"
     },
     {
       name: "Full Sleve Pant",
@@ -54,6 +58,7 @@ const data = {
       numReviews: 40,
       countInStock: 34,
       description: "A worthy Pant",
+      slug:"full-sleve-pant"
     },
     {
         name: "Micheal Pant",
@@ -65,6 +70,7 @@ const data = {
         numReviews: 34,
         countInStock: 21,
         description: "A brand of brothers",
+        slug:"micheal-pant"
       },
   ],
 };
