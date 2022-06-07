@@ -21,7 +21,7 @@ export default function Layout({ title , children }) {
         <Toolbar>
           <NextLink href="/" passHref>
             <Link>
-              <Typography className={classes.brand}>amazona</Typography>
+              <Typography className={classes.brand}>Tech Bomb</Typography>
             </Link>
           </NextLink>
           <div className={classes.grow}></div>
