@@ -3,7 +3,7 @@ const data = {
     {
       name: "Free Shirt",
       category: "Shirts",
-      image: "images/shirt1.jpg",
+      image: "/images/shirt1.jpg",
       price: 70,
       brand: "Nike",
       rating: 4.5,
@@ -15,7 +15,7 @@ const data = {
     {
       name: "Fit Shirt",
       category: "Shirts",
-      image: "images/shirt2.jpg",
+      image: "/images/shirt2.jpg",
       price: 780,
       brand: "Adidas",
       rating: 4.7,
@@ -27,7 +27,7 @@ const data = {
     {
       name: "Thin Shirt",
       category: "Shirts",
-      image: "images/shirt3.jpg",
+      image: "/images/shirt3.jpg",
       price: 85,
       brand: "Kasper",
       rating: 4.9,
@@ -39,7 +39,7 @@ const data = {
     {
       name: "Free Pant",
       category: "Pants",
-      image: "images/pants1.jpg",
+      image: "/images/pants1.jpg",
       price: 100,
       brand: "century",
       rating: 4.1,
@@ -51,7 +51,7 @@ const data = {
     {
       name: "Full Sleve Pant",
       category: "Pants",
-      image: "images/pants2.jpg",
+      image: "/images/pants2.jpg",
       price: 76,
       brand: "Adidas",
       rating: 4.9,
@@ -63,7 +63,7 @@ const data = {
     {
         name: "Micheal Pant",
         category: "Pants",
-        image: "images/pants3.jpg",
+        image: "/images/pants3.jpg",
         price: 67,
         brand: "Gentlepark",
         rating: 4.7,

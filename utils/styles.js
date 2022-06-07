@@ -5,24 +5,24 @@ const useStyles = makeStyles({
     backgroundColor: "#203040",
     "& a": {
       marginLeft: 10,
-      color: "#ffffff"
+      color: "#ffffff",
     },
   },
 
   main: {
-      minHeight:'80vh'
+    minHeight: "80vh",
   },
 
   footer: {
-      textAlign: 'center'
+    textAlign: "center",
   },
   brand: {
-    fontWeight:'bold',
-    fontSize:"1.5rem"
+    fontWeight: "bold",
+    fontSize: "1.5rem",
   },
-  grow:{
-    flexGrow:1,
-  }
+  grow: {
+    flexGrow: 1,
+  },
 });
 
 export default useStyles;
