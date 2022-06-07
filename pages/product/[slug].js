@@ -4,7 +4,7 @@ import data from "../../utils/data";
 import Layout from "../../components/Layout/Layout";
 import NextLink from "next/link";
 import {
-    Button,
+  Button,
   Card,
   Grid,
   Link,
@@ -42,13 +42,13 @@ export default function ProductScreen() {
         <Grid item md={3} xs={12}>
           <List>
             <ListItem>
-              <Typography>Category: {product.category}</Typography>
-            </ListItem>
-            <ListItem>
-              <Typography>Category: {product.brand}</Typography>
+              <Typography> {product.name}</Typography>
             </ListItem>
             <ListItem>
               <Typography>Category: {product.category}</Typography>
+            </ListItem>
+            <ListItem>
+              <Typography>Brand: {product.brand}</Typography>
             </ListItem>
             <ListItem>
               <Typography>
@@ -79,12 +79,18 @@ export default function ProductScreen() {
                     <Typography>Status</Typography>
                   </Grid>
                   <Grid item xs={6}>
-                    <Typography>{product.countInStock > 0 ? "In Stock" : "the product is unavailable"}</Typography>
+                    <Typography>
+                      {product.countInStock > 0
+                        ? "In Stock"
+                        : "the product is unavailable"}
+                    </Typography>
                   </Grid>
                 </Grid>
               </ListItem>
               <ListItem>
-                  <Button fullWidth variant = "contained" color="primary">Add to Cart</Button>
+                <Button fullWidth variant="contained" color="primary">
+                  Add to Cart
+                </Button>
               </ListItem>
             </List>
           </Card>
